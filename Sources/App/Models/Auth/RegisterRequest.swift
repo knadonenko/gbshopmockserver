@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  RegisterRequest.swift
 //  
 //
 //  Created by Константин Надоненко on 15.08.2021.

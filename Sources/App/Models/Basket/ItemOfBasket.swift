@@ -1,22 +1,22 @@
 //
-//  DeleteFromBasketRequest.swift
+//  ItemOfBasket.swift
 //  
 //
 //  Created by Константин Надоненко on 15.08.2021.
 //
 
-import Foundation
-
 import Vapor
 
-struct DeleteFromBasketRequest: Content {
+struct ItemOfBasket: Content {
 
-    let idUser: Int
     let idProduct: Int
+    let idUser: Int
+    let quantity: Int
 
     enum CodingKeys: String, CodingKey {
-        case idUser = "id_user"
         case idProduct = "id_product"
-
+        case idUser = "id_user"
+        case quantity = "quantity"
     }
 }
+
